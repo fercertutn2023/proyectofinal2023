@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="col">
+        <h4>Modificar una novedad</h4>
+        <form action="/admin/novedades/modificar" method="post" enctype="multipart/form-data">
+            <input type="hidden" value="{{novedad.id}}" name="id">
+            <div clas="col">
+                <input type="text" class="form-control" placeholder="Compañía" name="compania"
+                    value="{{novedad.compania}}">
+            </div>
+            <div class="col">
+                <textarea name="titulo" class="form-control" placeholder="titulo"> {{novedad.titulo}}</textarea>
+            </div>
+            <div class="col">
+                <textarea name="desarrollo" class="form-control"
+                    placeholder="desarrollo"> {{novedad.desarrollo}}</textarea>
+            </div>
+            <div class="col">
+                <p>
+                    <label>Imagen: <input type="file" name="imagen" id="imagen" /></label>
+                </p>
+                <p>
+                    <label><input type="checkbox" name="img_delete" id="img_delete" value="1">
+                        Eliminar imagen actual?</label>
+                    <input type="hidden" name="img_original" value="{{novedad.img_id}}">
+                </p>
+            </div>
+            <button type="submit" class="btn btn- primary">Modificar</button>
+        </form>
+        {{#if error}}
+        <p>{{message}} - No se ingreso la modificacion</p>
+        {{/if}}
+    </div>
+</div>
