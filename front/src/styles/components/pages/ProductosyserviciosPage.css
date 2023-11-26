@@ -1,0 +1,60 @@
+/* seccion 3 - Servicios*/
+
+.productos h2 {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(2, 2, 143);
+  font-style: italic;
+  margin: 20px 0;
+  text-decoration: underline;
+}
+
+/* ProductosyserviciosPage.css */
+
+.productos {
+  padding: 20px;
+}
+
+.servicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.servicio {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.servicio img {
+  max-width: 100%;
+  height: auto;
+}
+
+.servicio h4 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.servicio p {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+/* Compañias.css */
+
+.compañias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.compañia {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.compañia img {
+  max-width: 60%;
+  height: 60%;
+}

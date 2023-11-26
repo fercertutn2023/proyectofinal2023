@@ -1,0 +1,87 @@
+
+/* formularo */
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+
+.holder.contacto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.holder.contacto h2{
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.formulario {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid rgb(37, 3, 3);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formulario h2 {
+  color: rgb(8, 8, 180);
+}
+
+.formulario label {
+  display: block;
+  margin: 5px 0;
+  color: #555;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.formulario input[type="submit"] {
+  background-color: #1c076b;
+  color: white;
+  cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+  background-color: #130757;
+}
+
+.formulario .acciones {
+  text-align: center;
+}
+
+/* contacto */
+.datos {
+  width: 30%;
+}
+
+.datos h2 {
+  color: rgb(8, 8, 180);
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.datos ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.datos li {
+  margin: 10px 0;
+  color: rgb(2, 2, 121);
+  text-align: center;
+}
+
+

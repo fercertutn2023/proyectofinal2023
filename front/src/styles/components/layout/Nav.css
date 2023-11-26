@@ -1,0 +1,8 @@
+
+function Nav(props) {
+
+    return (
+        <div>Navegacion</div>
+    );
+}
+    export default Nav;

@@ -1,0 +1,54 @@
+
+.novedades {
+    max-width: 90%;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid rgb(3, 3, 112);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.novedades img {
+    max-width: 150px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.novedades h2,
+.novedades h3,
+.novedades h4 {
+    margin: 10px;
+}
+
+.novedades h2 {
+    color: rgb(5, 5, 87);
+    text-decoration: none;
+}
+
+.novedades h3 {
+    color: rgb(8, 8, 141);
+}
+
+.novedades h4 {
+    color: rgb(10, 10, 204);
+}
+
+.novedades div {
+    color: #555;
+    margin-top: 10px;
+    width: 100%; 
+}
+
+.novedades hr {
+    border: 0;
+    border-top: 1px solid blue;
+    margin: 20px 0;
+    width: 100%;
+}
+
+
+
+

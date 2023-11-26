@@ -1,0 +1,65 @@
+
+/* seccion 2 - Quienes somos*/
+
+.historia {
+    width: 80%;
+    padding: 15px;
+  }
+  
+  .historia h2 {
+    text-decoration: underline;
+    color: rgb(6, 6, 138);
+    font-size: 25px;
+  }
+
+  .historia p {
+    color: blue;
+    line-height: 1.4;
+    font-size: 15px;
+  }
+
+  .staff {
+    width: 90%;
+    padding: 15px;
+  }
+  
+  .staff h2 {
+    color: rgb(6, 6, 138);
+    font-size: 25px;
+    text-decoration: underline;
+  }
+
+  .personas {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  
+  .persona {
+    border: 2px solid;
+    border-radius: 3px;
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    /* box-sizing: border-box; */
+    background-color: rgb(21, 21, 150);
+  }
+  
+  .persona img {
+    border-radius: 50%;
+    max-width: 75%;
+    box-shadow: #03041b;
+  }
+  
+  h4 {
+    color: rgb(199, 199, 214);
+    font-weight: 50;
+    font-size: 14px;
+    font-style: italic;
+  }
+  
+  .persona p {
+    color: rgb(186, 186, 241);
+    font-size: 12px;
+  }
+  
